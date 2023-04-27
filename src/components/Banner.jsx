@@ -1,5 +1,5 @@
 import React from 'react';
-import shlok from "../assets/shlok.png";
+import shlok from "../assets/midjourney.jpeg";
 import { FaGithub, FaLinkedin, FaDribbble } from "react-icons/fa";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
@@ -61,7 +61,7 @@ export const Banner = () => {
           {/*image */}
           <motion.div variants={fadeIn('down',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}}
           className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
-            <img src={shlok} alt=""  className='w-24 rounded-lg'/>
+            <img src={shlok} alt=""  className=' rounded-lg'/>
           </motion.div>
         </div>
 
