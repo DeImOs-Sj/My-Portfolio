@@ -1,12 +1,12 @@
 import React from 'react';
-import dalle from '../assets/dalle.png';
+import dalle from '../assets/shloklogo.png';
 
 const Header = () => {
   return <header className='py-8'>
     <div className="container mx-auto">
       <div className='flex justify-between items-center'>
       <a href="#"></a>
-      <img src={dalle} alt="" className='w-16'/>
+      <img src={dalle} alt="" className='w-80'/>
       <button className='btn btn-sm'>Work with Me</button>
       </div>
     </div>
