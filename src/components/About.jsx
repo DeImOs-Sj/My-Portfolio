@@ -12,29 +12,61 @@ const About = () => {
     <section className='section' id='about' ref={ref}>
   
      <div className='container mx-auto'>
-       <div>
+       <div className='flex flex-col gap-y-10 lg:flex-row lg:item-center lg:gap-x-20 lg:gap-y-0 h-screen'>
          {/* img */}
-         <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></div>
+         <motion.div 
+          variants={fadeIn('right',0.5)}
+          initial='hidden'
+          whileInView={'show'}
+          viewport={{once:false,amount:0.3}}
+         className='flex-1 bg-about bg-contain bg-no-repeat h-[650px] mix-blend-lighten bg-top'></motion.div>
          {/* text */}
-        <div>
-           <h2>About me.</h2>
-           <h3>I'm a Freelancer Front-end Developer and Block-chain Enthusiast currently studying in 2nd year.</h3>
-           <p>
+        <motion.div variants={fadeIn('left',0.5)}
+         initial='hidden'
+         whileInView={'show'}
+         viewport={{once:false,amount:0.3}}
+          className='flex-1'>
+           <h2 className='h2 text-accent'>About me.</h2>
+           <h3 className='h3 mb-4'>I'm a Freelancer Front-end Developer and Block-chain Enthusiast currently studying in 2nd year.</h3>
+           <p className='mb-6'>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur incidunt modi temporibus voluptatum quidem accusantium atque quis nisi dolore reprehenderit.
            </p>
            {/* stats */}
-           <div className='flex'>
+           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
              <div>
                <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                 <CountUp start={0} end={13} duration={3}/>
+                 {inView? <CountUp start={0} end={2} duration={3}/>: null}
                </div>
                <div className='font-primary text-sm tracking-[2px]'>
-                 studying<br/>
+                 Currently<br/>
                  in 2nd year
                </div>
              </div>
+             <div>
+               <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                 {inView? <CountUp start={0} end={30} duration={3}/>: null}
+               </div>
+               <div className='font-primary text-sm tracking-[2px]'>
+                 Projects<br/>
+                 completed
+               </div>
+             </div>
+             <div>
+               <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                 {inView? <CountUp start={0} end={13} duration={3}/>: null}
+                 +
+               </div>
+               <div className='font-primary text-sm tracking-[2px]'>
+                 TechStack Language<br/>
+                 Knowledege
+               </div>
+             </div>
            </div>
-         </div>
+           <div className='flex gap-x-8 items-center'>
+            <button className='btn btn-lg'>Contact me</button>
+            <a href="#" className='text-gradient btn-link'>My portfolio</a>
+           </div>
+         </motion.div>
        </div>
      </div>   
   </section>
