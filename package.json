@@ -1,4 +1,5 @@
 {
+  "homepage": "http://DeImOs-Sj.github.io/My-Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,6 +40,7 @@
   },
   "devDependencies": {
     "framer-motion": "^8.4.3",
+    "gh-pages": "^5.0.0",
     "react-countup": "^6.4.0",
     "react-icons": "^4.8.0",
     "react-intersection-observer": "^9.4.1",
