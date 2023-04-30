@@ -28,11 +28,11 @@ const About = () => {
           className='flex-1'>
            <h2 className='h2 text-accent'>About me.</h2>
            <h3 className='h3 mb-4'>I'm a Freelancer Front-end Developer and Block-chain Enthusiast .</h3>
-           <p className='mb-4'>
+           <p className='mb-4 pb-[3px]'>
             My name is Shlok Jagtap, and I'm a Frontend developer based in Pune. I specialize in building modern web applications using React.
            </p>
            {/* stats */}
-           <div className='flex gap-x-6 lg:gap-x-10 mb-12 pt-[21px]'>
+           <div className='flex gap-x-6 lg:gap-x-10 mb-10 pt-[21px]'>
              <div>
                <div className='text-[40px] font-tertiary text-gradient mb-2'>
                  {inView? <CountUp start={0} end={2} duration={3}/>: null}
