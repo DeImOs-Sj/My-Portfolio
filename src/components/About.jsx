@@ -32,13 +32,13 @@ const About = () => {
             My name is Shlok Jagtap, and I'm a Frontend developer based in Pune. I specialize in building modern web applications using React.
            </p>
            {/* stats */}
-           <div className='flex gap-x-6 lg:gap-x-10 mb-10 pt-[30px]'>
+           <div className='flex gap-x-6 sm:gap-y-8 lg:gap-x-10 mb-10 '>
              <div>
                <div className='text-[40px] font-tertiary text-gradient mb-2'>
                  {inView? <CountUp start={0} end={2} duration={3}/>: null}
                  nd
                </div>
-               <div className='font-primary text-sm tracking-[2px]'>
+               <div className='font-primary text-sm tracking-[2px]  '>
                  Year<br/>
                  CSE
                </div>
