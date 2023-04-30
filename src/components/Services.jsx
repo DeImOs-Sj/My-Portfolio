@@ -5,27 +5,27 @@ import {fadeIn} from'../variants';
 const services =[{
   name:'Frontend Design',
   description:
-  'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia similique quisquam distinctio. Ex asperiores molestiae libero eligendi. Cum, iusto nihil!.',
+  "I have over 1 years of experience working as a developer, and I've had the opportunity to work on a variety of projects, from e-commerce websites to social media platforms. Some of my notable achievements include",
   link:'Learn more',
 },
   {
     name:'Development',
     description:
-    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia similique quisquam distinctio. Ex asperiores molestiae libero eligendi. Cum, iusto nihil!.',
+    'As a frontend developer, my goal is to design and develop a personal portfolio website that showcases my skills, experience, and accomplishments.',
     link:'Learn more',
   
   },
   {
     name:'Competetive Programming',
     description:
-    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia similique quisquam distinctio. Ex asperiores molestiae libero eligendi. Cum, iusto nihil!.',
+    'As a competitive programmer, I excel at solving algorithmic problems quickly and efficiently. I have a strong background in programming languages such as C++ and Python and am familiar with data structures, algorithms.',
     link:'Learn more',
   
   },
   {
     name:'Projects',
     description:
-    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia similique quisquam distinctio. Ex asperiores molestiae libero eligendi. Cum, iusto nihil!.',
+    'As a frontend developer and an universtiy student i have created multiple projects some of them are mini-projects and some of them are core frontend projects.Have a look at it by Clicking on Learn more',
     link:'Learn more',
   
   },
@@ -46,7 +46,9 @@ const Services = () => {
           <h3 className='h3 max-w-[455px] mb-16'>
             I'm a Freelancer Front-end Developer and Block-chain Enthusiast currently studying in 2nd year.
           </h3>
+          <a href="https://github.com/DeImOs-Sj">
           <button className='btn btn-sm'>See my Projects</button>
+          </a>
         </motion.div>
         {/* services */}
         <motion.div 
@@ -67,8 +69,8 @@ const Services = () => {
                     <p className='font-secondary leading-tight'>{description}</p>
                   </div>
                   <div className='flex flex-col flex-1 items-end'>
-                    <a href="#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'> <BsArrowUpRight/> </a>
-                    <a href="#" className='text-sm'>{link}</a>
+                    <a href="https://github.com/DeImOs-Sj" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'> <BsArrowUpRight/> </a>
+                    <a href="https://github.com/DeImOs-Sj" className='text-sm'>{link}</a>
                   </div>
                 </div>
               )

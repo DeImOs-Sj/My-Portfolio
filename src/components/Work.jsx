@@ -22,16 +22,18 @@ export const Work = () => {
             Work.
           </h2>
           <p className='max-w-sm mb-16'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa molestiae eos culpa debitis, accusantium quibusdam architecto tenetur. Cupiditate, iste.
+            My Latest Work includes this Portfolio Website which I have created to showcase my skills and to showcase my projects.
           </p>
+          <a href="https://github.com/DeImOs-Sj">
           <button className='btn btn-sm'>View all Project</button>
+          </a>
             </div>
             {/* image */}
-            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl '>
               {/* overlay */}
-              <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+              <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 '></div>
               {/* img */}
-              <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt="" />
+              <img className='group-hover:scale-125 transition-all duration-500 ' src={img1} alt="" />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>UI/UX</span>
@@ -47,7 +49,7 @@ export const Work = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once:false,amount:0.3}}
-           className='flex-1 flex flex-col gap-y-8 pt-10'>
+           className='flex-1 flex flex-col gap-y-6 pt-6'>
             {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}

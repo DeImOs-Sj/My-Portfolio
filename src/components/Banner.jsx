@@ -1,6 +1,6 @@
 import React from 'react';
 import shlok from "../assets/midjourney.jpeg";
-import { FaGithub, FaLinkedin, FaDribbble } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -34,12 +34,17 @@ export const Banner = () => {
             </motion.div>
             <motion.p
             variants={fadeIn('up',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni incidunt doloribus fugiat nihil earum eveniet repellat quidem, quo explicabo beatae.
+             HI !! <br />
+             This is Shlok Jagtap.
+             I am a Frontend Developer my Frontend Techstack includes HTML,CSS,TAILWIND CSS,JAVASCRIPT,REACT JS.
+             Proficient in C,C++,Python and Javascript
             </motion.p>
             <motion.div
             variants={fadeIn('up',0.6)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
+              <a href="https://www.linkedin.com/in/shlok-jagtap-5a8122228"  >
               <button className='btn btn-lg'>Contact Me</button>
-              <a href="#" className='text-gradient btn-link'>
+              </a>
+              <a href="https://github.com/DeImOs-Sj" className='text-gradient btn-link'>
                 My Portfolio
               </a>
             </motion.div>
@@ -47,14 +52,14 @@ export const Banner = () => {
             <motion.div
             variants={fadeIn('up',0.7)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}}
              className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/shlok-jagtap-5a8122228">
               <FaLinkedin />
             </a>
-            <a href="#">
+            <a href="https://github.com/DeImOs-Sj">
               <FaGithub />
             </a>
-            <a href="#">
-              <FaDribbble />
+            <a href="https://twitter.com/jagtap_shlok?t=rezAT-M-1131s24Ihp7tVw&s=09">
+              <FaTwitter/>
             </a>
             </motion.div>
           </div>
