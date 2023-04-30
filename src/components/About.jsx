@@ -32,6 +32,7 @@ const About = () => {
             My name is Shlok Jagtap, and I'm a Frontend developer based in Pune. I specialize in building modern web applications using React.
            </p>
            {/* stats */}
+           <div className='h-2'>
            <div className='flex pt-8 gap-x-6 lg:gap-x-10  mb-10  z-10'>
              <div>
                <div className='text-[40px] font-tertiary text-gradient mb-2'>
@@ -62,6 +63,7 @@ const About = () => {
                  Knowledege
                </div>
              </div>
+           </div>
            </div>
            <div className='flex gap-x-8 items-center'>
             <a href="https://www.linkedin.com/in/shlok-jagtap-5a8122228">
