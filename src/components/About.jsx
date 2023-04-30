@@ -18,13 +18,13 @@ const About = () => {
           variants={fadeIn('right',0.5)}
           initial='hidden'
           whileInView={'show'}
-          viewport={{once:false,amount:0.3}}
+          viewport={{once:true,amount:0.3}}
          className='flex-1 bg-about bg-contain bg-no-repeat h-[650px] mix-blend-lighten bg-top'></motion.div>
          {/* text */}
         <motion.div variants={fadeIn('left',0.5)}
          initial='hidden'
          whileInView={'show'}
-         viewport={{once:false,amount:0.3}}
+         viewport={{once:true,amount:0.3}}
           className='flex-1 '>
            <h2 className='h2 text-accent'>About me.</h2>
            <h3 className='h3 mb-2'>I'm a Freelancer Front-end Developer and Block-chain Enthusiast.</h3>
