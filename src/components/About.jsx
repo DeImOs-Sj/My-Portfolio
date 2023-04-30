@@ -27,7 +27,7 @@ const About = () => {
          viewport={{once:false,amount:0.3}}
           className='flex-1 '>
            <h2 className='h2 text-accent'>About me.</h2>
-           <h3 className='h3 mb-2'>I'm a Freelancer Front-end Developer and Block-chain Enthusiast .</h3>
+           <h3 className='h3 mb-2'>I'm a Freelancer Front-end Developer and Block-chain Enthusiast.</h3>
            <p className='mt-2'>
             My name is Shlok Jagtap, and I'm a Frontend developer based in Pune. I specialize in building modern web applications using React.
            </p>
