@@ -62,7 +62,7 @@ export const Work = () => {
                  </div>
                   {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'> 
-                <span className='text-3xl text-white'>Realtime Clock Project in Javascript</span>
+                <span className='text-3xl text-white'>Project in Javascript</span>
               </div>
             </div>
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
