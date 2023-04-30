@@ -18,7 +18,7 @@ const services =[{
   {
     name:'Competetive Programming',
     description:
-    'As a competitive programmer, I excel at solving algorithmic problems quickly and efficiently.',
+    'As a competitive programmer, I excel at solving algorithmic problems quickly.',
     link:'Learn more',
   
   },
