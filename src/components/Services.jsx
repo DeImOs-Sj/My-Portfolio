@@ -5,7 +5,7 @@ import {fadeIn} from'../variants';
 const services =[{
   name:'Frontend Design',
   description:
-  "I have over 1 years of experience working as a developer, and I've had the opportunity to work on a variety of projects, from e-commerce websites to social media platforms. Some of my notable achievements include",
+  "I have over 1 years of experience working as a developer, and I've had the opportunity to work on a variety of projects, from e-commerce websites to social media platforms",
   link:'Learn more',
 },
   {
@@ -18,7 +18,7 @@ const services =[{
   {
     name:'Competetive Programming',
     description:
-    'As a competitive programmer, I excel at solving algorithmic problems quickly and efficiently. I have a strong background in programming languages such as C++ and Python and am familiar with data structures, algorithms.',
+    'As a competitive programmer, I excel at solving algorithmic problems quickly and efficiently. I have a strong background in programming languages such as C++ and Python .',
     link:'Learn more',
   
   },
