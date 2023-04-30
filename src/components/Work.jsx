@@ -49,7 +49,7 @@ export const Work = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once:false,amount:0.3}}
-           className='flex-1 flex flex-col gap-y-6 pt-6'>
+           className='flex-1 flex flex-col gap-y-6 pt-4'>
             {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}

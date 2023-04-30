@@ -5,7 +5,7 @@ import {fadeIn} from'../variants';
 const services =[{
   name:'Frontend Design',
   description:
-  "I have over 1 years of experience working as a developer, and I've had the opportunity to work on a variety of projects, from e-commerce websites to social media platforms",
+  "I have over 1 years of experience working as a developer, and I've had the opportunity to work on a variety of projects.",
   link:'Learn more',
 },
   {
