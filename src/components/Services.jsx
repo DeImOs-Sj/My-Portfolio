@@ -18,14 +18,14 @@ const services =[{
   {
     name:'Competetive Programming',
     description:
-    'As a competitive programmer, I excel at solving algorithmic problems quickly and efficiently. I have a strong background in programming languages such as C++ and Python .',
+    'As a competitive programmer, I excel at solving algorithmic problems quickly and efficiently.',
     link:'Learn more',
   
   },
   {
     name:'Projects',
     description:
-    'As a frontend developer and an universtiy student i have created multiple projects some of them are mini-projects and some of them are core frontend projects.Have a look at it by Clicking on Learn more',
+    'As a frontend developer and an universtiy student i have created multiple projects .',
     link:'Learn more',
   
   },
