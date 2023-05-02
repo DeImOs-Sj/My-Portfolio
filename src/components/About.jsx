@@ -34,7 +34,7 @@ const About = () => {
            {/* stats */}
            <div className='flex gap-x-8 lg:gap-x-10  mt-10 mb-10  z-10'>
              <div>
-               <div className='text-[40px] font-tertiary text-gradient mb-2'>
+               <div className='text-[40px] font-tertiary text-gradient mb-2 pt-3'>
                  {inView? <CountUp start={0} end={2} duration={3}/>: null}
                  nd
                </div>
@@ -44,7 +44,7 @@ const About = () => {
                </div>
              </div>
              <div>
-               <div className='text-[40px] font-tertiary text-gradient mb-2'>
+               <div className='text-[40px] font-tertiary text-gradient mb-2 pt-3'>
                  {inView? <CountUp start={0} end={15} duration={3}/>: null}
                </div>
                <div className='font-primary text-sm tracking-[2px]'>
@@ -53,7 +53,7 @@ const About = () => {
                </div>
              </div>
              <div>
-               <div className='text-[40px] font-tertiary text-gradient mb-2'>
+               <div className='text-[40px] font-tertiary text-gradient mb-2 pt-3 '>
                  {inView? <CountUp start={0} end={13} duration={3}/>: null}
                  +
                </div>
